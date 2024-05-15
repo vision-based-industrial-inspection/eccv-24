@@ -7,10 +7,22 @@
 </head>
 
 <body>
+    <header>
+        <div class="navbar-group">
+            <a id="Overview">Overview</a>
+            <a id="Program">Program</a>
+            <a id="Call-for-Papers">Call for Papers</a>
+            <a id="Challenges">Challenges</a>
+            <a id="Organizers">Organizers</a>
+            <a id="Review">Review</a>
+            <a id="Follow-us">Follow us</a>
+        </div>
+        <img class="arrow" src="./images/arrow_down.svg">
+    </header>
     <div class="banner">
         <div class="title-wrap">
             <h2>
-                <img src="./images/banner-title.svg">
+                <img src="./images/banner_title.svg">
                 <span>ECCV</span>
             </h2>
             <h1>VISION’24</h1>
@@ -18,15 +30,507 @@
         </div>
     </div>
     <div class="content">
-        <div class="title-wrap">
+        <div class="title-card">
             <img src="./images/logo.png" alt="">
-            <h1>2st workshop on <span class="gradient">V</span class="gradient">ision-based <span class="gradient">I</span>ndu<span class="gradient">S</span>trial <span class="gradient">I</span>nspecti<span class="gradient">ON</span> (VISION)</h1>
+            <h1>2nd workshop on <span class="gradient">V</span class="gradient">ision-based <span class="gradient">I</span>ndu<span class="gradient">S</span>trial <span class="gradient">I</span>nspecti<span class="gradient">ON</span> (VISION)</h1>
             <h2>@ECCV 2024, Sep 29-30th, Milan, Italy</h2>
             <h3>10:00am-2:00pm Milan Time</h3>
         </div>
+        <h1 class="primary" id="Overview"><span>Overview</span></h1>
+        <h2>Aims and Scope</h2>
+        <p>The VISION workshop aims to provide a platform for the exchange of scholarly innovations and emerging practical challenges in Vision-based Industrial Inspection. Through a series of keynote talks, technical presentations, and data challenges, this workshop is intended to (i) bring together researchers from the interdisciplinary research communities related to computer vision-based inspection; (ii) connect researchers and industry practitioners to synergize recent research progress and current needs in industrial practice.</p>
+        <h2 id="guest-speakers">Keynote Talks (Topics TBD)</h2>
+        <div class="profile-group">
+            <div class="profile-wrap">
+                <img src="./images/profile_bianca.svg">
+                <div>
+                    <p class="name">Dr. Bianca Maria Colosimo</p>
+                    <p class="position">Professor at Politecnico di Milano</p>
+                </div>
+            </div>
+        </div>
+        <h1 class="primary" id="Program"><span>Program</span></h1>
+        <h2>Important Notice</h2>
+        <ul>
+            <li>Please confirm your attendance type: <a href="https://forms.gle/mDoKXVCjTyVzkrDr6" target="_blank">in-person or virtual</a>.</li>
+            <li>Please submit your slides and posters before . (poster presenters only need to submit their poster, oral presenters need to submit both).</li>
+            <li>If you plan to give a virtual presentation, please submit your recorded video before . Please note that registration is still needed for virtual attendance.</li>
+            <li>Please note that the slides, poster, and recording will be published online and must be the final version.</li>
+            <li>All the accepted oral presentation papers are also invited for a poster presentation.</li>
+            <li>Poster specs can be found <a href="https://cvpr2023.thecvf.com/Conferences/2023/PosterPrintingInformation" target="_blank">here</a>.</li>
+            <li>A Zoom link will be provided to the virtual presentation teams upon request.</li>
+        </ul>
+        <table>
+            <thead>
+                <tr>
+                    <th>Time(CEST)</th>
+                    <th>Topic</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><b>10:00 - 10:15</b></td>
+                    <td>Opening</td>
+                </tr>
+                <tr>
+                    <td><b>10:15 - 11:15</b></td>
+                    <td>Keynote Speeches</td>
+                </tr>
+                <tr>
+                    <td><b>11:15 - 12:15</b></td>
+                    <td>Paper Presentation</td>
+                </tr>
+                <tr>
+                    <td><b>12:15 - 12:30</b></td>
+                    <td>Lighting Talks</td>
+                </tr>
+                <tr>
+                    <td><b>12:30 - 12:45</b></td>
+                    <td>Break & Poster</td>
+                </tr>
+                <tr>
+                    <td><b>12:45 - 13:30</b></td>
+                    <td>Panel Discussion</td>
+                </tr>
+                <tr>
+                    <td><b>13:30 - 14:00</b></td>
+                    <td>Data Challenge Winner Announcement & Presentation</td>
+                </tr>
+            </tbody>
+        </table>
+        <h1 class="primary" id="Call-for-Papers"><span>Call for Papers</span></h1>
+        <h2>Topics of Interest (not limited to)</h2>
+        <p>From an industry point of view:</p>
+        <ul>
+            <li>Opportunities for Development in vision-based inspection technology, new problem formulation, data formats, and potential applications</li>
+            <li>Deployment Practices and Challenges of production vision-based inspection systems</li>
+            <li>Open Source Datasets for vision-based inspection research</li>
+        </ul>
+        <p>From an academic point of view:</p>
+        <ul>
+            <li>Meta-Learning, Transfer Learning, and Domain Adaptation</li>
+            <li>Foundation Models in Industry Inspection</li>
+            <li>Multi-Modality Data Fusion for Industry Inspection</li>
+            <li>Unsupervised, Semi-supervised, and Supervised Anomaly Detection under data and annotation limitations</li>
+            <li>Data Generation Techniques for small datasets and rare defect types</li>
+            <li>Data-centric Tools and Methodologies for more suitable data collection procedures, higher data quality, and efficiency</li>
+            <li>Robust, Explainable Machine Learning for high-stake applications</li>
+            <li>Vision-based modeling, diagnosis, control, and quality improvement of the manufacturing system</li>
+        </ul>
+        <h2>Important Dates</h2>
+        <table class="date-table">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><b>Aug 2nd, 2024</b></td>
+                    <td class="icon-column">
+                        <span>
+                            Paper Submission Deadline
+                            <img src="./images/broadcast.svg">
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Aug 23rd, 2024</b></td>
+                    <td>Author Notification</td>
+                </tr>
+                <tr>
+                    <td><b>Aug 30th, 2024</b></td>
+                    <td>Camera-ready submission</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>Submission Instructions</h2>
+        <p>Research and industrial papers relevant to the topics are invited. Authors have two options:</p>
+        <ul>
+            <li><b>Regular paper:</b> max 14 pages (details), appear in the ECCV workshops proceedings</li>
+            <li><b>Extended Abstracts:</b> 7 pages, will NOT appear in the proceedings</li>
+        </ul>
+        <h1 class="primary" id="Challenges"><span>Challenges</span></h1>
+        <h2>Participation</h2>
+        <p>Comprehensive industrial inspection datasets will be provided for challenge competitions. Participants are invited for the Challenge Competition (topic TBD)</p>
+        <h2>Important Dates</h2>
+        <table class="date-table">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><b>June 1st, 2024</b></td>
+                    <td>Dataset release and registration open</td>
+                </tr>
+                <tr>
+                    <td><b>Aug 1st, 2024</b></td>
+                    <td>Registration close</td>
+                </tr>
+                <tr>
+                    <td><b>Sep 1st, 2024</b></td>
+                    <td>Results submission deadline</td>
+                </tr>
+                <tr>
+                    <td><b>Sep 6th, 2024</b></td>
+                    <td>Winners announcement</td>
+                </tr>
+                <tr>
+                    <td><b>Sep 20th, 2024</b></td>
+                    <td>Camera-ready submission</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="tip">(The detailed instructions for the data challenge will be provided when the dataset is released.)</p>
+        <h1 class="primary" id="Organizers"><span>Organizers</span></h1>
+        <h2>Workshop Organizers</h2>
+        <div class="profile-group small-profile-group">
+            <div class="profile-wrap">
+                <img src="./images/profile_gokberk.svg">
+                <div>
+                    <p class="name">Gokberk Cinbis</p>
+                    <p class="position">Middle East Technical University</p>
+                </div>
+            </div>
+            <div class="profile-wrap">
+                <img src="./images/profile_shancong.svg">
+                <div>
+                    <p class="name">Shancong Mou</p>
+                    <p class="position">Georgia Institute of Technology</p>
+                </div>
+            </div>
+            <div class="profile-wrap">
+                <img src="./images/profile_hao.svg">
+                <div>
+                    <p class="name">Hao Yan</p>
+                    <p class="position">Arizona State University</p>
+                </div>
+            </div>
+            <div class="profile-wrap">
+                <img src="./images/profile_carrie.svg">
+                <div>
+                    <p class="name">Carrie Yu</p>
+                    <p class="position">Apple</p>
+                </div>
+            </div>
+            <div class="profile-wrap">
+                <img src="./images/profile_ziyue.svg">
+                <div>
+                    <p class="name">Ziyue Li</p>
+                    <p class="position">University of Cologne</p>
+                </div>
+            </div>
+        </div>
+        <h2>Challenge Organizers</h2>
+        <div class="profile-group small-profile-group">
+            <div class="profile-wrap">
+                <img src="./images/profile_sercan.svg">
+                <div>
+                    <p class="name">Sercan Amaç</p>
+                    <p class="position">Technical University of Munich</p>
+                </div>
+            </div>
+            <div class="profile-wrap">
+                <img src="./images/profile_haoping.svg">
+                <div>
+                    <p class="name">Haoping Bai</p>
+                    <p class="position">Apple</p>
+                </div>
+            </div>
+            <div class="profile-wrap">
+                <img src="./images/profile_michael.svg">
+                <div>
+                    <p class="name">Michael Biehler</p>
+                    <p class="position">Georgia Institute of Technology</p>
+                </div>
+            </div>
+            <div class="profile-wrap">
+                <img src="./images/profile_gokberk.svg">
+                <div>
+                    <p class="name">Gokberk Cinbis</p>
+                    <p class="position">Middle East Technical University</p>
+                </div>
+            </div>
+            <div class="profile-wrap">
+                <img src="./images/profile_meng.svg">
+                <div>
+                    <p class="name">Meng Cao</p>
+                    <p class="position">Apple</p>
+                </div>
+            </div>
+            <div class="profile-wrap">
+                <img src="./images/profile_xueying.svg">
+                <div>
+                    <p class="name">Xueying Ding</p>
+                    <p class="position">Carnegie Mellon University</p>
+                </div>
+            </div>
+            <div class="profile-wrap">
+                <img src="./images/profile_yavuz.svg">
+                <div>
+                    <p class="name">Yavuz Durmazkeser</p>
+                    <p class="position">University of Tübingen</p>
+                </div>
+            </div>
+            <div class="profile-wrap">
+                <img src="./images/profile_siawpeng.svg">
+                <div>
+                    <p class="name">Siawpeng Er</p>
+                    <p class="position">HomeDepot</p>
+                </div>
+            </div>
+            <div class="profile-wrap">
+                <img src="./images/profile_arsalan.svg">
+                <div>
+                    <p class="name">Arsalan Farooq</p>
+                    <p class="position">Apple</p>
+                </div>
+            </div>
+            <div class="profile-wrap">
+                <img src="./images/profile_furkan.svg">
+                <div>
+                    <p class="name">Furkan Küçük</p>
+                    <p class="position">Middle East Technical University</p>
+                </div>
+            </div>
+            <div class="profile-wrap">
+                <img src="./images/profile_ugurAli.svg">
+                <div>
+                    <p class="name">UgurAli Kaplan</p>
+                    <p class="position">University of Tübingen</p>
+                </div>
+            </div>
+            <div class="profile-wrap">
+                <img src="./images/profile_tatiana.svg">
+                <div>
+                    <p class="name">Tatiana Likhomanenko</p>
+                    <p class="position">Apple</p>
+                </div>
+            </div>
+            <div class="profile-wrap">
+                <img src="./images/profile_weston.svg">
+                <div>
+                    <p class="name">Weston Li</p>
+                    <p class="position">Apple</p>
+                </div>
+            </div>
+            <div class="profile-wrap">
+                <img src="./images/profile_yue.svg">
+                <div>
+                    <p class="name">Yue Zhao</p>
+                    <p class="position">Carnegie Mellon University</p>
+                </div>
+            </div>
+            <div class="profile-wrap">
+                <img src="./images/profile_shancong.svg">
+                <div>
+                    <p class="name">Shancong Mou</p>
+                    <p class="position">Georgia Institute of Technology</p>
+                </div>
+            </div>
+            <div class="profile-wrap">
+                <img src="./images/profile_atahan.svg">
+                <div>
+                    <p class="name">Atahan Özer</p>
+                    <p class="position">University of Tübingen</p>
+                </div>
+            </div>
+            <div class="profile-wrap">
+                <img src="./images/profile_parham.svg">
+                <div>
+                    <p class="name">Parham Shahidi</p>
+                    <p class="position">Apple</p>
+                </div>
+            </div>
+            <div class="profile-wrap">
+                <img src="./images/profile_oncel.svg">
+                <div>
+                    <p class="name">Oncel Tuzel</p>
+                    <p class="position">Apple</p>
+                </div>
+            </div>
+            <div class="profile-wrap">
+                <img src="./images/profile_yinan.svg">
+                <div>
+                    <p class="name">Yinan Wang</p>
+                    <p class="position">Rensselaer Polytechnic Institute</p>
+                </div>
+            </div>
+            <div class="profile-wrap">
+                <img src="./images/profile_shenghao.svg">
+                <div>
+                    <p class="name">Shenghao Xia</p>
+                    <p class="position">University of Arizona</p>
+                </div>
+            </div>
+            <div class="profile-wrap">
+                <img src="./images/profile_yinwei.svg">
+                <div>
+                    <p class="name">Yinwei Zhang</p>
+                    <p class="position">University of Arizona</p>
+                </div>
+            </div>
+            <div class="profile-wrap">
+                <img src="./images/profile_zihan.svg">
+                <div>
+                    <p class="name">Zihan Zhang</p>
+                    <p class="position">Georgia Institute of Technology</p>
+                </div>
+            </div>
+            <div class="profile-wrap">
+                <img src="./images/profile_xiaowei.svg">
+                <div>
+                    <p class="name">Xiaowei Yue</p>
+                    <p class="position">Virginia Tech</p>
+                </div>
+            </div>
+            <div class="profile-wrap">
+                <img src="./images/profile_shuangfei.svg">
+                <div>
+                    <p class="name">Shuangfei Zhai</p>
+                    <p class="position">Apple</p>
+                </div>
+            </div>
+        </div>
+        <h2>Advisory Committee</h2>
+        <div class="profile-group small-profile-group last-small-profile-group">
+            <div class="profile-wrap">
+                <img src="./images/profile_samy.svg">
+                <div>
+                    <p class="name">Dr. Samy Bengio</p>
+                    <p class="position">Apple</p>
+                </div>
+            </div>
+            <div class="profile-wrap">
+                <img src="./images/profile_jiulong.svg">
+                <div>
+                    <p class="name">Dr. Jiulong Shan</p>
+                    <p class="position">Apple</p>
+                </div>
+            </div>
+            <div class="profile-wrap">
+                <img src="./images/profile_jianjun.svg">
+                <div>
+                    <p class="name">Dr. Jianjun Shi</p>
+                    <p class="position">Georgia Institute of Technology</p>
+                </div>
+            </div>
+            <div class="profile-wrap">
+                <img src="./images/profile_haoping.svg">
+                <div>
+                    <p class="name">Mr. Haoping Bai</p>
+                    <p class="position">Apple</p>
+                </div>
+            </div>
+            <div class="profile-wrap">
+                <img src="./images/profile_meng.svg">
+                <div>
+                    <p class="name">Dr. Meng Cao</p>
+                    <p class="position">Apple</p>
+                </div>
+            </div>
+            <div class="profile-wrap">
+                <img src="./images/profile_oncel.svg">
+                <div>
+                    <p class="name">Dr. Oncel Tuzel</p>
+                    <p class="position">Apple</p>
+                </div>
+            </div>
+        </div>
+        <h1 class="primary" id="Review"><span>Review</span></h1>
+        <a class="title-card review-title-card" href="https://vision-based-industrial-inspection.github.io/cvpr-2023">
+            <div class="banner review-banner">
+                <div class="title-wrap">
+                    <h2>
+                        <img src="./images/1st_banner_title.svg">
+                        <span>CVPR</span>
+                    </h2>
+                    <h1>VISION’23</h1>
+                    <h3>VANCOUVER, CANADA</h3>
+                </div>
+            </div>
+            <h1>1st workshop on <span class="gradient">V</span class="gradient">ision-based <span class="gradient">I</span>ndu<span class="gradient">S</span>trial <span class="gradient">I</span>nspecti<span class="gradient">ON</span></h1>
+            <h2>West 208@CVPR 2023, June 19th, Monday, Vancouver, Canada</h2>
+        </a>
+        <h1 class="primary" id="Follow-us"><span>Follow us</span></h1>
+        <div class="follow-wrap">
+            <a class="twitter" href="https://twitter.com/VISION_Workshop" target="_blank">
+                <span class="icon"></span>
+                <span>Tweets</span>
+            </a>
+            <a class="email" href="mailto:vision.based.inspection+inquiry@gmail.com">
+                <span class="icon"></span>
+                <span>Workshop Queries</span>
+            </a>
+            <a class="person" href="https://eccv.ecva.net" target="_blank">
+                <span class="icon"></span>
+                <span>Registration</span>
+            </a>
+            <a class="email" href="mailto:vision.based.inspection+challenge@gmail.com">
+                <span class="icon"></span>
+                <span>Challenge Queries</span>
+            </a>
+        </div>
     </div>
+    <footer></footer>
 </body>
 </html>
+
+<script>
+    const navbars = document.querySelectorAll('.navbar-group a');
+    const navbarGroup = document.querySelector('.navbar-group');
+    const header = document.querySelector('header');
+    const headerArrow = document.querySelector('header .arrow');
+
+    navbars.forEach(navbar => {
+        navbar.onclick = () => {
+            const { offsetTop } = document.querySelector(`h1#${navbar.id}`);
+
+            navbars.forEach(nav => nav.style.color = '#1D1D1F');
+            navbar.style.color = '#934FE3';
+            window.scrollTo({ top: offsetTop - 49 });
+        };
+    });
+
+    window.onscroll = () => {
+        const h1Group = document.querySelectorAll('h1');
+
+        h1Group.forEach(h1 => {
+            if (h1.id) {
+                const navbar = document.querySelector(`a#${h1.id}`);
+                const { top } = h1.getBoundingClientRect();
+
+                if (top <= 50) {
+                    navbars.forEach(nav => nav.style.color = '#1D1D1F');
+                    navbar.style.color = '#934FE3';
+                } else {
+                    navbar.style.color = '#1D1D1F';
+                }
+            }
+        });
+    };
+
+    header.onclick = () => {
+        if (window.innerWidth < 768) {
+            if (navbarGroup.clientHeight === 0) {
+                navbarGroup.style.height = '240px';
+                navbarGroup.style.borderTop = '1px solid #CCCCCC';
+                headerArrow.style.transform = 'rotate(-180deg)';
+            } else {
+                navbarGroup.style.height = 0;
+                headerArrow.style.transform = 'rotate(0deg)';
+
+                setTimeout(() => {
+                    navbarGroup.style.borderTop = 'none';
+                }, 200);
+            }
+        }
+    };
+</script>
 
 <style>
 body, p, h1, h2, h3 {
@@ -37,7 +541,7 @@ body, p, h1, h2, h3 {
 a {
     text-decoration: none;
     cursor: pointer;
-    color: #008EFF;
+    color: #934FE3;
 }
 li {
     margin: 4px 0;
@@ -45,9 +549,68 @@ li {
 b {
     font-weight: 500;
 }
+table {
+    width: 100%;
+    border-spacing: 0;
+    overflow: hidden;
+}
+th, td {
+    padding: 20px 0;
+    text-align: start;
+}
+th {
+    border-bottom: 1px solid #934FE3;
+    font-weight: 500;
+}
+.date-table th {
+    padding: 0;
+}
+td {
+    border-bottom: 1px solid #DFDFDF;
+}
+td.icon-column span {
+    display: flex;
+    align-items: center;
+}
+td.icon-column img {
+    margin-left: 10px;
+}
+.tip {
+    margin-top: 30px;
+    color: #979797;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    padding: 0 16%;
+    line-height: 26px;
+    z-index: 3000;
+    background: #F7F7F7;
+}
+header .navbar-group {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+header .arrow {
+    display: none;
+}
+.navbar-group a {
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 14px;
+    color: #1D1D1F;
+}
 .banner {
+    margin-top: 50px;
     padding: 160px 16% 240px;
-    background-image: url('./images/banner-background.png');
+    background-image: url('./images/banner_background.png');
     background-size: 100% 100%;
 }
 .banner .title-wrap {
@@ -80,8 +643,7 @@ b {
     margin-right: 6px;
 }
 .banner .title-wrap h3 {
-    padding: 8px 0;
-    line-height: 26px;
+    line-height: 36px;
     font-size: 30px;
     letter-spacing: 20px;
     border-top: 1.5px solid #FFFFFF;
@@ -91,38 +653,295 @@ b {
     line-height: 26px;
     font-size: 18px;
 }
-.content .title-wrap {
-    margin-top: -120px;
+.content h1 {
+    line-height: 46px;
+    font-size: 30px;
+}
+.content h2 {
+    margin: 40px 0 20px;
+    font-size: 22px;
+}
+.content h1.primary {
+    display: flex;
+    align-items: center;
+    margin: 80px 0 40px;
+    line-height: 36px;
+}
+.content h1.primary span {
+    margin: 0 20px;
+    color: transparent;
+    background: linear-gradient(to right, #E73EDD, #2C62E8);
+    background-clip: text;
+    -webkit-background-clip: text;
+    white-space: nowrap;
+}
+.content h1.primary::before {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-image: linear-gradient(90deg, rgba(119, 84, 228, 0.00) 0%, #7753E4 100%);
+}
+.content h1.primary::after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-image: linear-gradient(90deg, #7753E4 0%, rgba(119, 84, 228, 0.00) 100%);
+}
+.content .title-card {
+    margin: -120px 0 100px;
     padding: 30px 0 50px;
     border-radius: 15px;
     background-color: #FFFFFF;
     box-shadow: 0px 13px 85px 0px rgba(0, 0, 0, 0.06);
     text-align: center;
 }
-.content .title-wrap h1 {
+.content .review-title-card {
+    display: block;
+    margin: 40px 0 100px;
+    padding-top: 0;
+    overflow: hidden;
+}
+.content .title-card h1 {
     margin: 20px 0 10px;
-    line-height: 46px;
-    font-size: 30px;
     color: #1D1D1F;
 }
-.content .title-wrap h2 {
+.content .title-card h2 {
     margin: 10px 0 20px;
     font-size: 20px;
     font-weight: normal;
 }
-.content .title-wrap h3 {
+.content .review-title-card h2 {
+    margin-bottom: 0;
+}
+.content .title-card h3 {
     margin: 0;
     line-height: 16px;
     font-size: 14px;
     font-weight: normal;
 }
-.content .title-wrap img {
+.content .title-card img {
     width: 120px;
 }
+.content .title-card .review-banner {
+    margin-top: 0;
+    padding: 50px 16%;
+    background-image: url('./images/1st_banner_background.jpg');
+    background-size: 100% 100%;
+}
+.content .title-card .review-banner .title-wrap h1 {
+    margin: 5px 0;
+    line-height: 50px;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+.content .title-card .review-banner .title-wrap h2 {
+    line-height: 40px;
+    font-size: 40px;
+}
+.content .title-card .review-banner .title-wrap h3 {
+    letter-spacing: 2.4px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.content .title-card .review-banner .title-wrap h2 img {
+    width: 180px;
+}
 .gradient {
+    color: transparent;
     background: linear-gradient(to bottom, #BD00E7, #FF4002);
     background-clip: text;
     -webkit-background-clip: text;
-    color: transparent;
+}
+.profile-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.small-profile-group {
+    justify-content: flex-start;
+    border-bottom: 1px solid #CFCFCF;
+}
+.last-small-profile-group {
+    border-bottom: none;
+}
+.profile-wrap {
+    text-align: center;
+}
+.small-profile-group .profile-wrap {
+    margin: 0 6px 20px 0;
+}
+.small-profile-group .profile-wrap:last-child {
+    margin-right: 0;
+}
+.profile-wrap .name {
+    margin: 10px 0;
+    line-height: 16px;
+    font-size: 15px;
+}
+.small-profile-group .profile-wrap .name {
+    max-width: 156px;
+}
+.profile-wrap .position {
+    width: 210px;
+    line-height: 16px;
+    font-size: 14px;
+    color: #666666;
+}
+.small-profile-group .profile-wrap .position {
+    max-width: 156px;
+    margin: 0 auto;
+}
+.follow-wrap {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.follow-wrap a .icon {
+    display: inline-block;
+    width: 37px;
+    height: 37px;
+    background-size: cover;
+}
+.follow-wrap a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    margin: 0 25px;
+    line-height: 25px;
+    font-size: 14px;
+}
+.follow-wrap a .icon {
+    margin-bottom: 8px;
+}
+a.twitter .icon {
+    background-image: url('./images/twitter.svg');
+}
+a.email .icon {
+    background-image: url('./images/email.svg');
+}
+a.person .icon {
+    background-image: url('./images/person.svg');
+}
+footer {
+    height: 50px;
+    background: #F7F7F7;
+}
+
+@media(max-width: 767px) {
+    th {
+        padding: 10px;
+        line-height: 20px;
+        font-size: 14px;
+    }
+    td {
+        padding: 20px 10px;
+        line-height: 16px;
+        font-size: 12px;
+    }
+    td.icon-column img {
+        margin-left: 0;
+        transform: scale(0.6);
+    }
+    .tip {
+        line-height: 16px;
+        font-size: 12px;
+    }
+    header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0;
+    }
+    header .navbar-group {
+        display: block;
+        position: absolute;
+        top: 50px;
+        height: 0;
+        overflow: hidden;
+        background: #F7F7F7;
+        transition: height ease-in-out 0.2s;
+    }
+    header .arrow {
+        display: block;
+        position: absolute;
+        right: 32px;
+        transition: transform ease-in-out 0.2s;
+    }
+    .navbar-group a {
+        display: block;
+        margin: 4px 20px;
+    }
+    .navbar-group a:first-child {
+        margin-top: 16px;
+    }
+    .banner {
+        display: flex;
+        justify-content: center;
+        padding: 50px 0;
+    }
+    .banner .title-wrap h1 {
+        margin-bottom: 6px;
+        line-height: 40px;
+        font-size: 50px;
+    }
+    .banner .title-wrap h2 {
+        margin-bottom: 6px;
+        line-height: 30px;
+        font-size: 40px;
+    }
+    .banner .title-wrap h2 img {
+        width: 100px;
+    }
+    .banner .title-wrap h3 {
+        line-height: 26px;
+        font-size: 20px;
+        letter-spacing: 7.2px;
+    }
+    .content {
+        padding: 0 30px 20px;
+        font-size: 16px;
+    }
+    .content h1.primary {
+        margin: 40px 0 20px;
+    }
+    .content .title-card {
+        margin-top: -30px;
+    }
+    .content .review-title-card {
+        margin-top: 40px;
+    }
+    .profile-group {
+        display: block;
+    }
+    .profile-wrap {
+        display: flex;
+        margin-bottom: 20px;
+        text-align: start;
+    }
+    .profile-wrap img {
+        width: 50px;
+        height: 50px;
+        margin-right: 12px;
+    }
+    .profile-wrap .name {
+        margin: 4px 0;
+        font-size: 16px;
+    }
+    .small-profile-group .profile-wrap .name {
+        width: 100%;
+        max-width: unset;
+    }
+    .profile-wrap .position, .small-profile-group .profile-wrap .position {
+        width: 100%;
+        max-width: unset;
+        color: rgba(0, 0, 0, 0.54);
+    }
+    .follow-wrap a {
+        margin: 0;
+        font-size: 12px;
+        transform: scale(0.8);
+        white-space: nowrap;
+    }
 }
 </style>

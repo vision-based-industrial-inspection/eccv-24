@@ -23,7 +23,7 @@
             <a id="Call-for-Papers">Call for Papers</a>
             <a id="Challenges">Challenges</a>
             <a id="Organizers">Organizers</a>
-            <a id="Review">Review</a>
+            <a id="Prior-workshops">Prior workshops</a>
             <a id="Follow-us">Follow us</a>
         </div>
         <img class="arrow" src="./images/arrow_down.svg">
@@ -48,7 +48,7 @@
         <h1 class="primary" id="Overview"><span>Overview</span></h1>
         <h2>Aims and Scope</h2>
         <p>The VISION workshop will provide a platform for the exchange of scholarly innovations and emerging practical challenges in Vision-based Industrial Inspection. Through a series of keynote talks, technical presentations, and challenge competitions, this workshop aims to (i) bring together researchers from the interdisciplinary research communities related to computer vision-based inspection; and (ii) connect researchers and industry practitioners to synergize recent research progress and current needs in industrial practice.</p>
-        <h2 id="guest-speakers">Keynote Talks (Topics TBD)</h2>
+        <h2 id="guest-speakers">Keynote Talks</h2>
         <div class="profile-group">
             <div class="profile-wrap">
                 <img src="./images/profile_bianca_maria.svg">
@@ -88,27 +88,27 @@
                 </tr>
                 <tr>
                     <td><b>10:15 - 11:15</b></td>
-                    <td>Keynote Speeches</td>
+                    <td>Keynotes</td>
                 </tr>
                 <tr>
                     <td><b>11:15 - 12:15</b></td>
-                    <td>Paper Presentation</td>
+                    <td>Paper presentations</td>
                 </tr>
                 <tr>
                     <td><b>12:15 - 12:30</b></td>
-                    <td>Lighting Talks</td>
+                    <td>Lighting talks</td>
                 </tr>
                 <tr>
                     <td><b>12:30 - 12:45</b></td>
-                    <td>Break & Poster</td>
+                    <td>Break & poster</td>
                 </tr>
                 <tr>
                     <td><b>12:45 - 13:30</b></td>
-                    <td>Panel Discussion</td>
+                    <td>Panel discussion</td>
                 </tr>
                 <tr>
                     <td><b>13:30 - 14:00</b></td>
-                    <td>Data Challenge Winner Announcement & Presentation</td>
+                    <td>Data challenge winner announcement & presentation</td>
                 </tr>
             </tbody>
         </table>
@@ -131,7 +131,13 @@
             <li>Robust, explainable machine learning for high-stake applications</li>
             <li>Vision-based modeling, diagnosis, control, and quality improvement of the manufacturing system</li>
         </ul>
-        <h2>Important Dates</h2>
+        <div class="title-link-wrap">
+            <h2>Important Dates</h2>
+            <a href="https://cmt3.research.microsoft.com/VISION2024" target="_blank">
+                <img src="./images/submit.svg" alt="">
+                Submit paper
+            </a>
+        </div>
         <table class="date-table">
             <thead>
                 <tr>
@@ -455,7 +461,7 @@
                 </div>
             </div>
         </div>
-        <h1 class="primary" id="Review"><span>Review</span></h1>
+        <h1 class="primary" id="Prior-workshops"><span>Prior workshops</span></h1>
         <a class="title-card review-title-card" href="https://vision-based-industrial-inspection.github.io/cvpr-2023">
             <div class="banner review-banner">
                 <div class="title-wrap">
@@ -870,6 +876,21 @@ footer {
 .link-card span img {
     margin-left: 8px;
 }
+.title-link-wrap {
+    display: flex;
+    align-items: center;
+    margin: 40px 0 20px;
+}
+.title-link-wrap h2 {
+    margin: 0 12px 0 0;
+}
+.title-link-wrap a {
+    display: flex;
+    align-items: center;
+}
+.title-link-wrap a img {
+    margin-right: 6px;
+}
 
 @media(max-width: 767px) {
     th {
@@ -997,6 +1018,9 @@ footer {
     .link-card span img {
         width: 10px;
         margin-left: 4px;
+    }
+    .title-link-wrap a img {
+        width: 26px;
     }
 }
 </style>

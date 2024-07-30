@@ -251,6 +251,37 @@
                 </tr>
             </tbody>
         </table>
+        <h2>Prize</h2>
+        <div class="prize-wrap">
+            <div class="prize-item">
+                <p><b>Gold prize</b></p>
+                <img class="gold" src="./images/gold.png" alt="">
+                <img class="mac" src="./images/mac.png" alt="">
+                <p>14-inch MacBook Pro</p>
+                <p class="config">M3 pro chip</p>
+            </div>
+            <div class="prize-item">
+                <p><b>Silver prize</b></p>
+                <img class="silver" src="./images/silver.png" alt="">
+                <img class="ipad-pro" src="./images/ipad_pro.png" alt="">
+                <p>13-inch iPad Pro</p>
+                <p class="config">Wi-Fi 512GB</p>
+            </div>
+            <div class="prize-item">
+                <p><b>Bronze prize</b></p>
+                <img class="bronze" src="./images/bronze.png" alt="">
+                <img class="ipad-air" src="./images/ipad_air.png" alt="">
+                <p>13-inch iPad Air</p>
+                <p class="config">Wi-Fi 512GB</p>
+            </div>
+            <div class="prize-item">
+                <p><b>Most Innovative prize</b></p>
+                <img class="innovation" src="./images/innovation.png" alt="">
+                <img class="ipad" src="./images/ipad.png" alt="">
+                <p>10.9-inch iPad</p>
+                <p class="config">Wi-Fi 256GB</p>
+            </div>
+        </div>
         <h1 class="primary" id="Organizers"><span>Organizers</span></h1>
         <h2>Organizing Committee</h2>
         <div class="profile-group small-profile-group">
@@ -948,6 +979,54 @@ footer {
     font-weight: 500;
     color: #1D1D1F;
 }
+.prize-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.prize-wrap .prize-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.prize-wrap .prize-item img {
+    display: block;
+}
+.prize-wrap .prize-item img:nth-child(2) {
+    margin: 6px 0;
+}
+.prize-wrap .prize-item img:nth-child(3) {
+    margin: 6px 0 24px;
+}
+.prize-wrap .prize-item img.gold {
+    width: 27px;
+}
+.prize-wrap .prize-item img.silver, .prize-wrap .prize-item img.bronze {
+    width: 26px;
+}
+.prize-wrap .prize-item img.innovation {
+    width: 24px;
+}
+.prize-wrap .prize-item img.mac {
+    width: 177px;
+}
+.prize-wrap .prize-item img.ipad-pro {
+    width: 105px;
+    margin: 8px 0 26px;
+}
+.prize-wrap .prize-item img.ipad-air {
+    width: 110px;
+}
+.prize-wrap .prize-item img.ipad {
+    width: 94px;
+    margin: 12px 0 32px;
+}
+.prize-wrap .prize-item .config {
+    margin-top: 6px;
+    font-size: 16px;
+    color: #959595;
+}
 
 @media(max-width: 767px) {
     th {
@@ -1078,6 +1157,12 @@ footer {
     }
     .title-link-wrap a img {
         width: 26px;
+    }
+    .prize-wrap {
+        display: block;
+    }
+    .prize-wrap .prize-item {
+        margin: 40px 0;
     }
 }
 </style>

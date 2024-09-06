@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="21px" viewBox="0 0 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>🇨🇳</title>
+    <defs>
+        <pattern id="pattern-1" patternUnits="objectBoundingBox" x="-2.11471052e-15%" width="100%" height="100%">
+            <use xlink:href="#image-2" transform="scale(0.525,0.525)"></use>
+        </pattern>
+        <image id="image-2" width="40" height="40" xlink:href="data:image/png;base64,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"></image>
+    </defs>
+    <g id="人物更新" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ECCV-Workshop_0905" transform="translate(-682.42, -5578.75)" fill="url(#pattern-1)">
+            <g id="编组-37" transform="translate(237.4294, 5578.75)">
+                <g id="🇨🇳" transform="translate(444.9906, 0)">
+                    <polygon points="0 0 21 0 21 21 0 21"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

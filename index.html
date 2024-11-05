@@ -85,10 +85,9 @@
                 <tr>
                     <td><b>9:00 - 9:15</b></td>
                     <td>
-                        <p>Opening</p>
+                        <p class="flex-item">Opening <a href="https://www.youtube.com/watch?v=7GgLHEBkSBI&list=PLqG1Y3yBcQbpmKjJI0pg537a0428jdx1_&index=1&t=218s" target="_blank"><img src="./images/play_big.svg" alt=""></a></p>
                         <div class="inner">
                             <p>Shanhari Sivagnanasundaram</p>
-                            <p class="light">Apple Senior Director</p>
                         </div>
                     </td>
                 </tr>
@@ -96,16 +95,16 @@
                     <td><b>9:15 - 10:15</b></td>
                     <td>
                         <p>Keynotes</p>
-                        <div class="inner">
-                            <p>VISIONxAM: Image data mining for Additive Manufacturing - Prof. Colosimo</p>
-                            <p>Industrial Informatics and Intelligence for Vision-based Industrial Inspection - Prof. Tsung</p>
-                            <p>Addressing Data Scarcity: Foundation Models, Data Retrieval and Data Synthesis - Dr. Vemulapalli</p>
+                        <div class="inner flex-inner">
+                            <p class="flex-item">Prof. Colosimo <a href="https://www.youtube.com/watch?v=QfpnzF_BKvE&list=PLqG1Y3yBcQbpmKjJI0pg537a0428jdx1_&index=2" target="_blank"><img src="./images/play_small.svg" alt=""></a></p>
+                            <p class="flex-item">Prof. Tsung <a href="https://www.youtube.com/watch?v=lDwGJNSdKUU&list=PLqG1Y3yBcQbpmKjJI0pg537a0428jdx1_&index=3" target="_blank"><img src="./images/play_small.svg" alt=""></a></p>
+                            <p class="flex-item">Dr. Vemulapalli <a href="https://www.youtube.com/watch?v=EG-VC1JpRag&list=PLqG1Y3yBcQbpmKjJI0pg537a0428jdx1_&index=4" target="_blank"><img src="./images/play_small.svg" alt=""></a></p>
                         </div>
                     </td>
                 </tr>
                 <tr>
                     <td><b>10:15 - 10:40</b></td>
-                    <td>Paper presentations (4 minutes for each oral paper)</td>
+                    <td class="flex-item">Paper presentations (4 minutes for each oral paper) <a href="https://www.youtube.com/watch?v=MM6rx_VBvmc&list=PLqG1Y3yBcQbpmKjJI0pg537a0428jdx1_&index=5" target="_blank"><img src="./images/play_big.svg" alt=""></a></td>
                 </tr>
                 <tr>
                     <td><b>10:40 - 11:30</b></td>
@@ -113,11 +112,11 @@
                 </tr>
                 <tr>
                     <td><b>11:30 - 12:25</b></td>
-                    <td>Panel discussion</td>
+                    <td class="flex-item">Panel discussion <a href="https://www.youtube.com/watch?v=IcYFhJlsGD0&list=PLqG1Y3yBcQbpmKjJI0pg537a0428jdx1_&index=6" target="_blank"><img src="./images/play_big.svg" alt=""></a></td>
                 </tr>
                 <tr>
                     <td><b>12:25 - 13:00</b></td>
-                    <td>Data challenge winner announcement & presentation (5 minutes for each presentation)</td>
+                    <td class="flex-item">Data challenge winner announcement & presentation <a href="https://www.youtube.com/watch?v=Ry_eleSeQTg&list=PLqG1Y3yBcQbpmKjJI0pg537a0428jdx1_&index=7" target="_blank"><img src="./images/play_big.svg" alt=""></a></td>
                 </tr>
             </tbody>
         </table>
@@ -703,15 +702,29 @@ td.icon-column span {
 td.icon-column img {
     margin-left: 10px;
 }
-td.flex-item {
+.flex-item {
     display: flex;
+    align-items: center;
 }
-td.flex-item img {
+.flex-item img {
     margin-left: 6px;
+}
+.flex-item a {
+    display: flex;
+    margin-left: 6px;
+}
+.flex-item a img {
+    margin-left: 0;
 }
 td .inner {
     margin-top: 10px;
     font-size: 16px;
+}
+td .flex-inner {
+    display: flex;
+}
+td .flex-inner .flex-item {
+    margin-right: 30px;
 }
 td .inner p {
     color: #6f6f6f;
@@ -1097,6 +1110,12 @@ footer {
     td.icon-column img {
         margin-left: 0;
         transform: scale(0.6);
+    }
+    td .inner {
+        font-size: 12px;
+    }
+    td .flex-inner {
+        flex-direction: column;
     }
     header {
         flex-direction: column;
